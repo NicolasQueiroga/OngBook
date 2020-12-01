@@ -5,3 +5,121 @@ html, body {
     font-family: 'PT Sans Narrow', sans-serif;
     font-family: 'Roboto Slab', serif;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+/* ============================= Controle ============================= */
+/* ================================ QOL =============================== */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+a {
+    display: block;
+    color: #000;
+    text-decoration: none;  
+}
+
+/* ============================== Header ============================== */
+
+header{
+    height: 7%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: .05rem solid gray;
+}
+
+    /* ----------------------- Controle ----------------------- */
+    /* ------------------------ Perfil ------------------------ */
+    .perfil{
+        height: 100%;
+        width: 13%;
+        text-align: center;
+        
+    }
+    .perfilImage{
+        height: 2.5rem;
+        width: 2.5rem;
+        margin-top: 0.3rem;
+    }
+
+
+    /* ------------------------ Search ------------------------ */
+    .search{
+        height: 100%;
+        width: 61%;
+        text-align: center;
+    }
+
+    .barraPesquisa{
+        margin-top: 0.5rem;
+        width: 90%;
+        font-size: 1.5rem;
+    }
+
+    /* ------------------------ MsgNot ------------------------ */
+    .msgNot{
+        height: 100%;
+        width: 26%;
+        display: flex;
+    }
+
+    .mensagem{
+        height: 100%;
+        width: 50%;
+        text-align: center;
+    }
+
+    .notificacao{
+        height: 100%;
+        width: 50%;
+        text-align: center;
+    }
+
+
+
+/* =============================== Main =============================== */
+main{
+    height: 86%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* ============================== Footer ============================== */
+footer{
+    height: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-top: .05rem solid gray;
+}
+
+    /* ----------------------- Controle ----------------------- */
+    /* ----------------------- Buttons ------------------------ */
+    .navButtons{
+        text-align: center;
+        height: 100%;
+        width: 20%;
+    }
+
+    .active{
+        border-top: .5rem solid rgb(0, 199, 9);
+    }
+
+    .nonActive{
+        padding: 0.3rem;
+    }
+
+    .navImage{
+        height: 2.4rem;
+        width: 2.4rem;
+    }
