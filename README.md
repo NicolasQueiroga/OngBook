@@ -1,6 +1,6 @@
 # Projeto Final Co-design de Aplicativos: Equipe 3
 
-### Nome do aplicativo: ClassHub
+### Nome do aplicativo: OngBook
 Integrantes:
 - Augusto Rocha Ribeiro
 - Francisco Pinheiro Janela
