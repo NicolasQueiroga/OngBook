@@ -64,10 +64,6 @@ span {
     font-size: 1rem;
   }
   
-  .active, .collapsible:hover {
-    background-color: rgb(194, 194, 194);
-    transition: .3s;
-  }
   
   .content {
     display: none;
