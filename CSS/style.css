@@ -119,9 +119,15 @@ main{
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     overflow: auto;
 }   
+
+.alhinhamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+}
     /* ------------------------- Home ------------------------- */
 
     
