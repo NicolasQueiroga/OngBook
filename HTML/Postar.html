@@ -6,18 +6,51 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../CSS/reset.css">
         <link rel="stylesheet" href="../CSS/style.css">
+        <link rel="stylesheet" href="../CSS/overlay.css">
+        <script src="../JS/scripts.js"></script>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet"> 
     </head>
     <body>
         <header>
+            <div id="mySidenav" class="sidenav snMenu">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">oi poha</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+            </div>
+            <ul class='menu'>
+                <div id="main"><span onclick="openNav()"><img class= "menuImage" src="../IMG/MenuButton.png" alt="botão de menu"></div>
+            </ul>
+            <div class="logoHeader"><img class="menuImage" src="../IMG/LogoOB.png"></div>
+
 
         </header>
         <main>
-
+            <div class="selectGroup">
+                <select class="selectGroupSize" name="Região" id="Região">
+                    <option value="ONG1">ONG1</option>
+                    <option value="ONG2">ONG2</option>
+                </select>
+            </div>
+            <input type="text" class="postarTitulo" placeholder="Title..">
+            <textarea class="postarDescription" placeholder="Description.."></textarea>
+            <a href="#" class="postarUpload">Upload Photos</a>
+            <input type="checkbox" class="postarCheck" id='doacoes' name='doacoes'><label for="doacoes">Aceito Doações</label>
+            <input type="checkbox" class="postarCheck" id='voluntarios' name='voluntarios'><label for="voluntarios">Aceito Voluntários</label>
+            <a href="Home.html" class="postarPost">Post</a>
         </main>
         <footer>
-
+            <ul class='navButtons nonActive'>
+                <a href="Home.html"><img class= "navImage" src="../IMG/HomeButton.png" alt="botão de menu"></a>
+            </ul>
+            <ul class='navButtons active'>
+                <a><img class= "navImage" src="../IMG/AddButtonActive.png" alt="botão de menu"></a>
+            </ul>
+            <ul class='navButtons nonActive'>
+                <a><img class= "navImage" src="../IMG/GlobeButton.png" alt="botão de menu"></a>
+            </ul>
         </footer>
     </body>
 </html> 
