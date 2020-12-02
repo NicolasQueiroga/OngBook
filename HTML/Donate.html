@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../CSS/reset.css">
+        <link rel="stylesheet" href="../CSS/style.css">
+        <link rel="stylesheet" href="../CSS/overlay.css">
+        <script src="../JS/scripts.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <header>
+            <div id="mySidenav" class="sidenav snMenu">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">oi</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div id="myNotif" class="sidenav snNotif">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNot()">&times;</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+            </div>
+              
+        
+           
+            <span class='menu' id="main" onclick="openNav()"><img class= "menuImage" src="../IMG/MenuButton.png" alt="botão de menu"></span>
+            <input class="barraPesquisa search" type="text" placeholder="Search...">
+            <div class='msgNot'>
+                <a class="mensagem" href="Mensagens.html"><img class= "menuImage" src="../IMG/MensageIcon.webp" alt="botão de mensagens"></a>
+                <span class="notificacao" id="main" onclick="openNot()"><img class= "menuImage" src="../IMG/NotificationIcon.png" alt="botão de notificação"></span>
+            </div>
+        </header>
+        <main>
+            <div class="alinhamento">
+                <div class="donateTitle">SUA DOAÇÃO</div>
+                <input type="text" class="donateAmount" placeholder="Amount[R$]..">
+                <div class="selectGroup">
+                    <select class="selectGroupSize" name="Região" id="Região">
+                        <option value="Cartao X">Cartao X - VISA</option>
+                        <option value="Cartao Y">Cartao Y - MASTERCARD</option>
+                    </select>
+                </div>
+                <a href="Home.html" class="donateButtonsDoar">DOAR!</a>
+            </div>
+        </main>
+        <footer>
+            <a class='navButtons nonActive' href="Home.html"><img class= "navImage" src="../IMG/HomeButton.png" alt="botão de menu"></a>
+            <a class='navButtons nonActive' href="Postar.html"><img class= "navImage" src="../IMG/AddButton.png" alt="botão de menu"></a>
+            <a class='navButtons nonActive' href="Ongs.html"><img class= "navImage" src="../IMG/GlobeButton.png" alt="botão de menu"></a>
+        </footer>
+    </body>
+</html> 
