@@ -158,8 +158,8 @@ header{
 
     /* ------------------------ Return ----------------------- */
     .returnSign{
-        height: 1.5rem;
-        width: 1.5rem;
+        height: 1.4rem;
+        width: 1.1rem;
         margin-top: .79rem;
     }
     /* ------------------------- Msg ------------------------- */
@@ -347,6 +347,44 @@ main{
     }
 
     /* ------------------------- Msgs ------------------------- */
+    .msgBox{
+        width: 90%;
+        height: 4rem;
+        margin:0.5rem;
+        padding:0.5rem;
+        border-bottom: solid 0.05rem gray;
+        display: flex;
+        align-items: center;
+    }
+
+    .msgProfileImage{
+        width: 15%;
+        height: 100%;
+    }
+
+    .msgPhoto{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .msgProfile{
+        width: 85%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .msgName, .msgMensage{
+        line-height: 1.5rem;
+        width: 90%;
+        height: 45%;
+    }
+
+    .msgMensage{
+        color: gray;
+    }
 
 
     /* ------------------------ Postar ------------------------ */
