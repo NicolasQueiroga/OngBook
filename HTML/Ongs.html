@@ -32,17 +32,11 @@
         
            
             <span class='menu' id="main" onclick="openNav()"><img class= "menuImage" src="../IMG/MenuButton.png" alt="botão de menu"></span>
-            <ul class='search'>
-                <input class="barraPesquisa search" type="text" placeholder="Search...">
-            </ul>
-            <ul class='msgNot'>
-                <li class="mensagem">
-                    <a href="Mensagens.html"><img class= "menuImage" src="../IMG/MensageIcon.webp" alt="botão de mensagens"></a>
-                </li>
-                <li class="notificacao">
-                    <div id="main"><span onclick="openNot()"><img class= "menuImage" src="../IMG/NotificationIcon.png" alt="botão de notificação"></span>
-                </li>
-            </ul>
+            <input class="barraPesquisa search" type="text" placeholder="Search...">
+            <div class='msgNot'>
+                <a class="mensagem" href="Mensagens.html"><img class= "menuImage" src="../IMG/MensageIcon.webp" alt="botão de mensagens"></a>
+                <span class="notificacao" id="main" onclick="openNot()"><img class= "menuImage" src="../IMG/NotificationIcon.png" alt="botão de notificação"></span>
+            </div>
         </header>
         <main>
             <button type="button" class="collapsible">Filtros</button>
@@ -58,8 +52,8 @@
                         </select>
                     </li>
                     <li id="atu">
-                        <label for="Área de Atuação">Área de Atuação:</label>
-                        <select name="Área de Atuação" id="Área de Atuação">
+                        <label for="Área_de_Atuação">Área de Atuação:</label>
+                        <select name="Área de Atuação" id="Área_de_Atuação">
                           <option>Selecione uma Área</option>
                           <option>Educação</option>
                           <option>Saúde</option>
@@ -67,8 +61,8 @@
                         </select>
                     </li>
                     <li id="tam">
-                        <label for="Tamanho da ONG">Tamanho da ONG:</label>
-                        <select name="Tamanho da ONG" id="Tamanho da ONG">
+                        <label for="Tamanho_da_ONG">Tamanho da ONG:</label>
+                        <select name="Tamanho da ONG" id="Tamanho_da_ONG">
                           <option>Selecione o Tamanho</option>
                           <option>Pequena</option>
                           <option>Média</option>
@@ -121,18 +115,12 @@
             </div>
         </main>
         <footer>
-            <ul class='navButtons nonActive'>
-                <a href="Home.html"><img class= "navImage" src="../IMG/HomeButton.png" alt="botão menu"></a>
-            </ul>
-            <ul class='navButtons nonActive'>
-                <a href="Postar.html"><img class= "navImage" src="../IMG/AddButton.png" alt="botão post"></a>
-            </ul>
-            <ul class='navButtons active'>
-                <a><img class= "navImage" src="../IMG/GlobeButtonActive.png" alt="botão Ong"></a>
-            </ul>
+            <a class='navButtons nonActive' href="Home.html"><img class= "navImage" src="../IMG/HomeButton.png" alt="botão de menu"></a>
+            <a class='navButtons nonActive' href="Postar.html"><img class= "navImage" src="../IMG/AddButton.png" alt="botão de menu"></a>
+            <a class='navButtons active' href="Ongs.html"><img class= "navImage" src="../IMG/GlobeButtonActive.png" alt="botão de menu"></a>
         </footer>
 
-<!-------------------------------------------------------------------------->
+<!--Script-->
         <script>
             var coll = document.getElementsByClassName("collapsible");
             var i;
@@ -157,7 +145,7 @@
                 });
             }
         </script>
-<!-------------------------------------------------------------------------->        
+<!--End of Script-->        
     
     </body>
 </html> 
