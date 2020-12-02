@@ -61,21 +61,21 @@ a {
   }
 
   .collapsible {
-    background-color: rgb(145, 111, 223);
+    background-color: rgb(194, 194, 194);
     color: white;
     cursor: pointer;
 
     padding: 0.3rem;
     width: 20%;
     margin-top: 2%;
-    margin-left: 62%;
+    margin-left: 79%;
 
     text-align: center;
     font-size: 1rem;
   }
   
   .active, .collapsible:hover {
-    background-color: rgb(145, 111, 223);
+    background-color: rgb(194, 194, 194);
     transition: .3s;
   }
   

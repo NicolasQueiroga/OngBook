@@ -136,20 +136,28 @@ main{
 .filtros {
     display: flex;
     flex-direction: column;
-    margin: 0 26% 0 20%;
-    align-content: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
   }
 
   #reg {
     margin: 1rem;
+    align-items: center;
+    justify-content: center;
   }
 
   #atu {
     margin: 1rem;
+    align-items: center;
+    justify-content: center;
   }
 
   #tam {
     margin: 1rem;
+    align-items: center;
+    justify-content: center;
   }
 /* ============================== Footer ============================== */
 footer{
