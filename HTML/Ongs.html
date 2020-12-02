@@ -6,18 +6,76 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../CSS/reset.css">
         <link rel="stylesheet" href="../CSS/style.css">
+        <link rel="stylesheet" href="../CSS/overlay.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet"> 
     </head>
     <body>
         <header>
-
         </header>
         <main>
-
+            <button type="button" class="collapsible">Filtros</button>
+            <div class="content">
+                <ul class='filtros'>
+                    <li id="reg">
+                        <label for="Região">Região:</label>
+                        <select name="Região" id="Região">
+                          <option value="None">Selecione uma Região</option>
+                          <option value=""></option>
+                          <option value=""></option>
+                          <option value=""></option>
+                        </select>
+                    </li>
+                    <li id="atu">
+                        <label for="Área de Atuação">Área de Atuação:</label>
+                        <select name="Área de Atuação" id="Área de Atuação">
+                          <option value="">Selecione uma Área</option>
+                          <option value=""></option>
+                          <option value=""></option>
+                          <option value=""></option>
+                        </select>
+                    </li>
+                    <li id="tam">
+                        <label for="Tamanho">Tamanho:</label>
+                        <select name="Tamanho" id="Tamanho">
+                          <option value="">Selecione o Tamanho</option>
+                          <option value=""></option>
+                          <option value=""></option>
+                          <option value=""></option>
+                        </select>
+                    </li>
+                </ul>    
+            </div>
         </main>
         <footer>
-
         </footer>
+
+<!-------------------------------------------------------------------------->
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) 
+            {
+                coll[i].addEventListener("click", function() 
+                {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+
+                if (content.style.display === "block") 
+                {
+                    content.style.display = "none";
+                    document.body.style.backgroundColor = "white";
+                } 
+                else 
+                {
+                    content.style.display = "block";
+                    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+                }
+                });
+            }
+        </script>
+<!-------------------------------------------------------------------------->        
+    
     </body>
 </html> 

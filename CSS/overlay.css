@@ -60,3 +60,27 @@ a {
     }
   }
 
+  .collapsible {
+    background-color: rgb(145, 111, 223);
+    color: white;
+    cursor: pointer;
+
+    padding: 0.3rem;
+    width: 20%;
+    margin-top: 2%;
+    margin-left: 62%;
+
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: rgb(145, 111, 223);
+    transition: .3s;
+  }
+  
+  .content {
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }

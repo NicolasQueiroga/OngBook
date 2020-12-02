@@ -132,8 +132,25 @@ main{
     background-color: rgb(112, 112, 146);
 }
 
-/* ----------------------- Msgs ------------------------ */
+/* ----------------------- ONGS ------------------------ */
+.filtros {
+    display: flex;
+    flex-direction: column;
+    margin: 0 26% 0 20%;
+    align-content: center;
+  }
 
+  #reg {
+    margin: 1rem;
+  }
+
+  #atu {
+    margin: 1rem;
+  }
+
+  #tam {
+    margin: 1rem;
+  }
 /* ============================== Footer ============================== */
 footer{
     height: 7%;
