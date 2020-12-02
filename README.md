@@ -8,3 +8,5 @@
 
 #### Objetivo da equipe:
 - A equipe teve como objetivo criar um aplicativo que facilitasse a integração e organização entre diferentes ONG's e projetos/iniciativas sociais, de modo a facilitar a comunicação entre elas, viabilizando parcerias e a atração de um público interessado pelas causas sociais.
+
+Link do protótipo no Marvel: https://marvelapp.com/prototype/fdag4je/screen/74934384

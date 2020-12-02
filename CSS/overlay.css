@@ -10,6 +10,7 @@ span {
 
 a {
     color: aqua;
+    display: block;
 }
 
   .sidenav {
@@ -58,3 +59,4 @@ a {
         font-size: 18px;
     }
   }
+
